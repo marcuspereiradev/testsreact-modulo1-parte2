@@ -2,9 +2,9 @@
 import React from 'react'
 
 const Title = React.createClass({
-  render(){
+  render() {
     return (
-      <h1>Olá Marcus!</h1>
+      <h1>Olá {this.props.name}</h1>
     )
   }
 })
