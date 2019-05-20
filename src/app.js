@@ -3,6 +3,7 @@
 import React, { Component } from 'react'
 import Title from './title';
 import Square from './square'
+import Button from './button'
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
 
         <div className="container" onClick={() => {alert('Clicou')}}>
           <Square />
+          <Button>Botão</Button>
         </div>
       </div>
     )
