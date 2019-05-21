@@ -5,6 +5,7 @@ import Title from './title';
 import Square from './square'
 import Button from './button'
 import LikeButton from './likeButton';
+import SearchButton from './SearchButton'
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
           <Square />
           <Button>Botão</Button>
           <LikeButton />
+          <SearchButton />
         </div>
       </div>
     )
