@@ -1,23 +1,19 @@
 'use strict'
 
 import React, { Component } from 'react'
-import Title from './title';
-import Square from './square'
-import Button from './button'
-import LikeButton from './likeButton';
-import SearchButton from './SearchButton'
 
 class App extends Component {
+  constructor() {
+    super()
+    this.state = {
+      text: 'Marcus'
+    }
+  }
   render() {
     return (
       <div>
-        <Title name="Marcus" lastName="Pereira" />
-
         <div className="container">
-          <Square />
-          <Button>Botão</Button>
-          <LikeButton />
-          <SearchButton />
+          {console.log(this.state.text)}
         </div>
       </div>
     )
