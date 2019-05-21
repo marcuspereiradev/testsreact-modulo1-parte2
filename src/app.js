@@ -13,7 +13,7 @@ class App extends Component {
       <div>
         <Title name="Marcus" lastName="Pereira" />
 
-        <div className="container" onClick={() => {alert('Clicou')}}>
+        <div className="container">
           <Square />
           <Button>Botão</Button>
           <LikeButton />
