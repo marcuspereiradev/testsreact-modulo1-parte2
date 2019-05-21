@@ -12,8 +12,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div className="container">
-          {console.log(this.state.text)}
+        <div className="container" onClick={() => this.setState({
+          text: 'Marcus Pereira'
+        })}>
+          {this.state.text}
         </div>
       </div>
     )
